@@ -43,11 +43,11 @@ public class DatabaseManager<T extends Urun> implements ICRUD<T> {
 
     @Override
     public T findByID(int id) {
-//        for (T member : urunList) {
-//            if (member.getUserId() == id) {
-//                return member;
-//            }
-//        }
+        for (T member : urunList) {
+            if (member.getId() == id) {
+                return member;
+            }
+        }
         return null;
     }
 }

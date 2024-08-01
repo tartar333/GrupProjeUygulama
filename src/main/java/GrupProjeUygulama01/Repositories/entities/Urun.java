@@ -15,6 +15,13 @@ public class Urun {
         this.id = ++idCount;
     }
 
+    public Urun(Urun urun, int adet) {
+        this(urun.getUrunAd(), urun.getFiyat());
+        this.adet=adet;
+
+
+    }
+
     public Integer getAdet() {
         return adet;
     }

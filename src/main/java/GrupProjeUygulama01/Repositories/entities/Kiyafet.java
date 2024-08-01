@@ -7,6 +7,14 @@ public class Kiyafet extends Urun{
     private ESize size;
     private EGender gender;
 
+    public Kiyafet(Kiyafet kiyafet, int adet) {
+        super(kiyafet.getUrunAd(), kiyafet.getFiyat());
+        this.tur = kiyafet.tur;
+        this.renk = kiyafet.renk;
+        this.size = kiyafet.size;
+        this.gender = kiyafet.gender;
+        super.setAdet(adet);
+    }
 
     public Kiyafet(String urunAd, Double fiyat) {
         super(urunAd, fiyat);
@@ -50,6 +58,7 @@ public class Kiyafet extends Urun{
                 "id=" + getId() +
                 ", urunAd='" + getUrunAd() + '\'' +
                 ", fiyat=" + getFiyat() +
+                +
                 '}';
     }
 
