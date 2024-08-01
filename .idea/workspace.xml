@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d0ccf7-b2fd-4365-b997-1b0b6d65055c" name="Changes" comment="...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/UrunSecimSistemi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/UrunSecimSistemi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Kiyafet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Kiyafet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Sepet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Sepet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Urun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Urun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Runner.java" afterDir="false" />
-    </list>
+    <list default="true" id="43d0ccf7-b2fd-4365-b997-1b0b6d65055c" name="Changes" comment="..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +110,7 @@
       <workItem from="1722434805376" duration="1154000" />
       <workItem from="1722467101851" duration="45000" />
       <workItem from="1722492043293" duration="1063000" />
-      <workItem from="1722494742120" duration="1264000" />
+      <workItem from="1722494742120" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <option name="closed" value="true" />
@@ -136,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722492808458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="...">
+      <option name="closed" value="true" />
+      <created>1722496219061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722496219061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

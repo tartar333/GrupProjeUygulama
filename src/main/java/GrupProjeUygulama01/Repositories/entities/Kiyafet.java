@@ -1,5 +1,10 @@
 package GrupProjeUygulama01.Repositories.entities;
 
+import GrupProjeUygulama01.Repositories.entities.Enums.EGender;
+import GrupProjeUygulama01.Repositories.entities.Enums.ERenk;
+import GrupProjeUygulama01.Repositories.entities.Enums.ESize;
+import GrupProjeUygulama01.Repositories.entities.Enums.ETur;
+
 public class Kiyafet extends Urun {
     
     private ETur tur;

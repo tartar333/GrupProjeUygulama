@@ -1,6 +1,10 @@
 package GrupProjeUygulama01.Repositories;
 
 import GrupProjeUygulama01.Repositories.entities.*;
+import GrupProjeUygulama01.Repositories.entities.Enums.EGender;
+import GrupProjeUygulama01.Repositories.entities.Enums.ERenk;
+import GrupProjeUygulama01.Repositories.entities.Enums.ESize;
+import GrupProjeUygulama01.Repositories.entities.Enums.ETur;
 
 import java.util.List;
 import java.util.Random;
