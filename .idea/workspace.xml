@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d0ccf7-b2fd-4365-b997-1b0b6d65055c" name="Changes" comment="..">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="43d0ccf7-b2fd-4365-b997-1b0b6d65055c" name="Changes" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/UrunSecimSistemi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/UrunSecimSistemi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Kiyafet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Kiyafet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Sepet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Sepet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Urun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Repositories/entities/Urun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupProjeUygulama01/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Gradle.UrunProje [:Runner.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UrunProje [:UrunSecimSistemi.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -48,6 +54,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Java_Dersi/UrunProje/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -57,7 +66,7 @@
       <recent name="C:\Java_Dersi\UrunProje\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrupProjeUygulama01.Runner" />
       <module name="UrunProje.main" />
@@ -71,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UrunSecimSistemi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrupProjeUygulama01.Repositories.UrunSecimSistemi" />
+      <module name="UrunProje.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GrupProjeUygulama01.Repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UrunSecimSistemi" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -94,6 +117,8 @@
       <updated>1722434804354</updated>
       <workItem from="1722434805376" duration="1154000" />
       <workItem from="1722467101851" duration="45000" />
+      <workItem from="1722492043293" duration="1063000" />
+      <workItem from="1722494742120" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <option name="closed" value="true" />
@@ -103,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722435175154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="...">
+      <option name="closed" value="true" />
+      <created>1722492808458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722492808458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

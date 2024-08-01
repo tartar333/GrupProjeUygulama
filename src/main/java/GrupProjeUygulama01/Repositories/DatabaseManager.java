@@ -6,41 +6,49 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseManager<T extends Urun> implements ICRUD<T> {
-
-    ArrayList<T> urunList = new ArrayList<>();
-
+    
+    private ArrayList<T> urunList = new ArrayList<>();
+    
     @Override
     public T save(T t) {
-
         if (urunList.add(t)) {
             return t;
-        } else return null;
+        } else {
+            return null;
+        }
     }
-
+    
     @Override
     public List<T> saveAll(List<T> t) {
         if (urunList.addAll(t)) {
             return t;
-        } else return null;
+        } else {
+            return null;
+        }
     }
-
+    
     @Override
     public T update(T t) {
         int index = urunList.indexOf(t);
-        return urunList.set(index, t);
+        if (index >= 0) {
+            return urunList.set(index, t);
+        } else {
+            return null;
+        }
     }
-
+    
     @Override
     public List<T> getAll() {
-        if(urunList.isEmpty()){
+        if (urunList.isEmpty()) {
             System.out.println("There is no data saved to this list");
-        }
-        for(T t : urunList){
-            System.out.println(t);                  //not completed.
+        } else {
+            for (T t : urunList) {
+                System.out.println(t);
+            }
         }
         return urunList;
     }
-
+    
     @Override
     public T findByID(int id) {
         for (T member : urunList) {
@@ -49,5 +57,9 @@ public class DatabaseManager<T extends Urun> implements ICRUD<T> {
             }
         }
         return null;
+    }
+    
+    public ArrayList<T> getUrunList() {
+        return urunList;
     }
 }
